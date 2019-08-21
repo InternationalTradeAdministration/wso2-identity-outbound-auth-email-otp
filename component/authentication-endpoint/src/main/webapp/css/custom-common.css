@@ -4,15 +4,18 @@ body {
     font-weight: 300;
 }
 header {
-    background: #222222;
+    background: white;
     min-height: 50px;
     position: relative;
 }
 header .brand a {
     min-height: 24px;
 }
+header .brand a:hover {
+    text-decoration: none;
+}
 header .brand img.logo {
-    height: 24px;
+    height: 55px;
 }
 header .brand h1 {
     margin: 0 0 0 5px;
